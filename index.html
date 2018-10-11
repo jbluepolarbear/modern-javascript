@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <script src="todo.js"></script>
+        <link rel="stylesheet" type="text/css" href="todo.css" />
+        <h1>To Do List</h1>
+    </head>
+    <body>
+        <div class="todo">
+            <div class="input">
+                <input class="todo" type="text" id="todo-input">
+            </div>
+            <div class="todo-list" id="todo-list">
+            </div>
+        </div>
+        <script type="module">
+            import { ToDo } from './todo.js';
+            const todo = new ToDo();
+            import {} from './new-features.js';
+        </script>
+    </body>
+</html>
